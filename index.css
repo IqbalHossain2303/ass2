@@ -1,0 +1,162 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    
+
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Domine', serif;
+}
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+/* header start */
+.header{
+    background-color: #FAEBD7;
+    padding:15px;
+    
+}
+.logo img{
+    width: 200px;
+}
+.all-menu-list ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.all-menu-list ul li{
+    list-style: none;
+}
+.all-menu-list ul li a{
+    text-decoration: none;
+    color:#000;
+    text-transform: capitalize;
+    padding:10px;
+
+}
+.top-banner-left-img img{
+    width: 335px;
+    height: 310px;
+    text-align: center;
+}
+.positionn{
+    padding:25px;
+}
+.top-banner-right{
+    margin-top: 20px;
+}
+/* header end */
+
+
+/* casual shoes start */
+    #casual-section ,#formal-section {
+        margin:30px;
+    }
+.card-header img{
+    height: 300px;
+}
+/* casual shoes end */
+
+
+
+/* formal shoes start */
+
+/* =======  EMPETY formal section ======= */
+
+/* formal shoes end */
+
+
+
+/* shop section start here */
+#shop-section{
+    margin:80px 30px;
+}
+.find-the-perfect img{
+    width: 85px;
+}
+.shop-right img{
+    width: 370px;
+    height: 370px;
+    
+}
+.shop-right{
+    text-align: right;
+}
+/* shop section end  */
+
+
+
+    /*footer section start */
+
+    #footer{
+        background-color: #131516;
+        padding-top: 10rem ;
+        padding-left: 5rem;
+        padding-bottom: 8rem;
+    }
+    .contact h3{
+        font-size: 3rem;
+        color: #fff;
+        margin-bottom: 0;
+    }
+    .contact p{
+        font-size: 1.2rem;
+        margin-top: 0;
+    }
+    .contact {
+        margin-bottom: 7rem;
+    }
+    .footer-left p{
+        font-size: 1.8rem;
+        color:#fff;
+    }
+    .footer-left  button{
+        width:90%;
+        background-color: #0E878B;
+        color:#fff;
+        padding:1.5rem;
+        transition: 0.4s;
+    }
+    .footer-left  button:hover{
+        background-color: #fff;
+        color: #000;
+    }
+    .footer-right p{
+        color:#fff;
+        font-size: 1rem;
+    }
+    .down-footer-left p{
+        font-size: 1rem;
+        color:#fff;
+    }
+    .down-footer-right-social a{
+        font-size: 1.5rem;
+        padding:0.5rem;
+    }
+      /*footer section end */
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    
+ 

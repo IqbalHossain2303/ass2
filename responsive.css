@@ -1,0 +1,105 @@
+@media screen and (max-width: 1200px),(min-width:1200px){
+    .menu{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .top-banner-left-img{
+        width: 100%;
+        text-align: center;
+    }
+    .top-banner-right {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .header{
+        padding:0 !important;
+    }
+    .all-menu-list ul {
+        display:block !important;
+        position:fixed;
+        right: -150px;
+        
+        height:100vh ;
+        background-color: #042331;
+    }
+    .all-menu-list ul li a{
+        color:#fff !important;
+        line-height: 20px;
+        
+        
+    }
+    .all-menu-list ul li{
+        margin-top: 30px ;
+    }
+
+    .dis-none-icon{
+        
+        cursor: pointer;
+        text-align: right;
+        position:fixed;
+        color:#000;
+        margin-left: 230px;
+        z-index: 999999999;
+        
+    }
+
+    label #btn ,label #cancel{
+        position: absolute;
+        cursor: pointer;
+    }
+    label #btn{
+        right: 40px;
+        top:30px;
+        font-size: 20px;
+        color:#000;
+        z-index: 9999999999;
+        
+        
+    }
+    label #cancel{
+        z-index: 666666;
+        right: 195px;
+        top:32px;
+        font-size: 20px;
+    }
+    #check{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    
+}
+
+
+@media screen and (max-width: 400px) {
+    .top-banner-left-img img{
+        width: 200px !important;
+        height: 200px !important;
+    }
+    .footer-left p{
+        font-size: 14px !important;
+        width: 100% ;
+    }
+    .footer-right {
+        width: 100%;
+    }
+    .contact  h3{
+        font-size: 25px !important;
+    }
+}
